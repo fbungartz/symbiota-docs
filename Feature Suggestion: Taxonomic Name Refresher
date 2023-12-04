@@ -1,0 +1,7 @@
+Feature Suggestion for a "Taxonomic Name Refresher":
+For portal manager updating the taxonomy, it would be helpful to add a tool to update the taxonomic thesaurus in batch across all collections without modifying any occurrence records.
+Currently this is only possible by running the taxonomic name cleaner against a repository like fdex, WoRMS, EOL etc. for individual collections, but not using the re-mapping tool.
+A "Taxonomic Name Refresher" could be used to add missing names by scanning all collections for names that are not currently included in the thesaurus against names that are available in a particular repository.
+This would work by scanning all collections in a portal, but without the remapping feature of the Taxonomic Name Cleaner. It would require Superadmin (or atlernatively Taxon Editor) rights.
+Ideally, portal manager could use it as an option to be able to add new names in batch rather than manually. 
+Ideally the names would not necessarily be added automatically, but a semi-automatic mode would give the portal manager the choice of names to be added (or perhaps use a filter; in the lichen portal this would be useful to screen out names of non-lichenized fungi).
